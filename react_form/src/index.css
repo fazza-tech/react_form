@@ -65,3 +65,17 @@ body {
 .signup-form button:hover {
   background: #0056b3;
 }
+
+textarea{
+  height: 80px;
+}
+
+label.radio-label{
+  display: flex;
+  align-items: center;
+  
+  
+}
+label.radio-label > input{
+  width: 20px;
+}
