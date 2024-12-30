@@ -4,19 +4,6 @@ import './index.css'; // Importing the CSS file
 export default function App() {
 
   function signUp(formData){
-    // const email = formData.get("email")
-    // const password = formData.get("password")
-    // const employmentStatus = formData.get("employment-status")
-    // const description = formData.get("description")
-    // const dieteryRestriction = formData.getAll("Dietery-status")
-    // const favCOlor = formData.getAll("favColor")
-    // console.log("email :"+email)
-    // console.log("password : "+password)
-    // console.log(description)
-    // console.log(employmentStatus)
-    // console.log(dieteryRestriction)
-    // console.log("color:"+favCOlor)
-
     const data = Object.fromEntries(formData);
     const dieteryData = formData.getAll("Dietery-status")
     const allData = {
